@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[bg-gradient-to-r from-primary to-secondary] text-white;
+  }
+}

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+ --
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+button:hover {
+  border-color: #646cff;
+  background: rgba(255, 255, 255, 0.87);
+  animation: btnTrans cubic-bezier(0.215, 0.610, 0.355, 1) .14s;
+}
+
+@keyframes btnTrans {
+  from {
+    background: rgba(255, 255, 255, 0.87);
+  }
+
+  to {
+    background: rgba(143, 13, 169, 0.87);
+  }
+
+}
+
